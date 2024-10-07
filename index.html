@@ -14,10 +14,11 @@
 <body>
     <!-- page -->
      <div id="container" class="w-full min-h-screen">
+
         <!-- media start  -->
-         <nav class="w-full min-h-[8vh] flex flex-row justify-between items-center bg-shadow">
+         <!-- <nav class="w-full min-h-[8vh] flex flex-row justify-between items-center bg-shadow">
             <div class="m-2">
-                <p>We are here for you !</p>
+                <p id="header_media_title">Мы здесь для вас!</p>
             </div>
             <div>
                 <ul class="flex m-2">
@@ -27,10 +28,10 @@
                     <li><a class="p-1" href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 </ul>
             </div>
-         </nav>
+         </nav> -->
          <!-- media end  -->
           <!-- lang start  -->
-           <div class="bg-second w-full min-h-[8vh] flex flex-row justify-between">
+           <!-- <div class="bg-second w-full min-h-[8vh] flex flex-row justify-between">
             <div class="flex items-center">
                 <h1 class="font-extrabold text-5xl text-primary mx-12">ST!</h1>
             </div>
@@ -43,12 +44,12 @@
                         </a></li>
                 </ul>
             </div>
-           </div>
+           </div> -->
            <!-- lang end  -->
            <!-- navigation start  -->
-           <nav class="lg:px-16 px-6 bg-primary shadow-md flex flex-wrap items-center lg:py-0 py-2">
+           <nav class="lg:px-16 px-6 bg-second shadow-md flex flex-wrap items-center lg:py-0 py-2">
             <div class="flex-1 flex justify-between items-center">
-              <a href="./index.html" class="flex text-4xl text-second font-extrabold">
+              <a href="./index.html" class="flex text-4xl text-primary font-extrabold">
                 ST!
               </a>
             </div>
@@ -70,47 +71,63 @@
                 <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
                   <li class="py-2 lg:py-0 ">
                     <a
-                      class="text-second hover:pb-4"
+                      class="text-primary hover:pb-4"
                       href="./index.html"
+                      id="navigation_one"
                     >
                     дом
                     </a>
                   </li>
                   <li class="py-2 lg:py-0 ">
                     <a
-                      class="text-second hover:pb-4"
+                      class="text-primary hover:pb-4"
                       href="./about.html"
+                      id="navigation_two"
                     >
                     о нас
                     </a>
                   </li>
                   <li class="py-2 lg:py-0 ">
                     <a
-                      class="text-second hover:pb-4"
+                      class="text-primary hover:pb-4"
                       href="./partyleader.html"
+                      id="navigation_thirty"
                     >
                     Лидер партии 
                     </a>
                   </li>
                   <li class="py-2 lg:py-0 ">
                     <a
-                      class="text-second hover:pb-4"
+                      class="text-primary hover:pb-4"
                       href="./support.html"
+                      id="navigation_fourty"
                     >
                     Центры поддержки
                     </a>
                   </li>
                   <li class="py-2 lg:py-0 ">
                     <a
-                      class="text-second hover:pb-4"
+                      class="text-primary hover:pb-4"
                       href="./parliament.html"
+                      id="navigation_fivety"
                     >
                     Мы в парламенте
                     </a>
                   </li>
-                  
+                  <li>
+                    <ul class="flex justify-center m-2">
+                      <li><a class="p-1" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                      <li><a class="p-1" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                      <li><a class="p-1" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                      <li><a class="p-1" href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                  </ul>
+                  </li>
                 </ul>
               </nav>
+    <!-- <select name="lang" id="">
+      <option value="RU" onclick="changeLanguage('ru')">RU</option>
+      <option value="EN" onclick="changeLanguage('lv')">LV</option>
+    </select> -->
             </div>
           </nav>
          <!-- navigation end  -->
@@ -122,7 +139,7 @@
                     <h1 class="text-textLg m-3 font-bold">We are trying to <br>
                         make the pure country</h1>
                         <p class="m-2 text-textSm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
-                      <a href="" class="p-2 m-2 text-primary border-primary border rounded-lg hover:bg-primary hover:text-second transition-all">MORE</a>
+                      <a href="" class="p-2 m-3 text-primary border-primary border hover:bg-primary hover:text-second transition-all">MORE</a>
                     </div>
                 </div>
                 <div class="hidden sm:block">
@@ -132,32 +149,34 @@
                </div>
                <!-- intro end  -->
                 <!-- mission start  -->
-                <div class="w-full flex flex-wrap text-second justify-around min-h-[50vh] bg-primary">
+                <div class="w-full flex flex-wrap sm:flex-nowrap text-second justify-around min-h-[50vh] bg-primary">
                     <div class="flex flex-wrap justify-around"> 
-                        <img class="w-full max-w-[400px] hidden sm:block" src="./public/missions.png" alt="">
-                            <div class="my-12">
-                                <h1 class="text-2xl">Issues</h1>
-                                <p class="w-[200px] text-[12px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at rutrum arcu. Mauris tincidunt, orci in dignissim efficitur, nisl erat tempus diam
-                                </p>
-                                <span>
-                                    <a href="">Read more ></a>
-                                </span>
-                            </div>                            
+                        <img class="w-full max-w-[400px] hidden sm:block" src="./public/missions.png" alt="">                                
                     </div>
                     <div class="flex items-center flex-wrap justify-around">
-                        <div class="m-2">
+                        <div class="m-3">
                             <div>
                                 <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M48.5832 46.375V41.9583C48.5832 37.8424 45.768 34.3839 41.9582 33.4033M34.229 7.26709C37.4662 8.57749 39.7498 11.7512 39.7498 15.4583C39.7498 19.1654 37.4662 22.3392 34.229 23.6496M37.5415 46.375C37.5415 42.2592 37.5415 40.2013 36.8691 38.578C35.9726 36.4135 34.253 34.6939 32.0885 33.7974C30.4652 33.125 28.4073 33.125 24.2915 33.125H17.6665C13.5507 33.125 11.4928 33.125 9.86947 33.7974C7.70505 34.6939 5.98543 36.4135 5.0889 38.578C4.4165 40.2013 4.4165 42.2592 4.4165 46.375M29.8123 15.4583C29.8123 20.3368 25.8575 24.2917 20.979 24.2917C16.1005 24.2917 12.1457 20.3368 12.1457 15.4583C12.1457 10.5798 16.1005 6.625 20.979 6.625C25.8575 6.625 29.8123 10.5798 29.8123 15.4583Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>                                
                             </div>
-                            <h1 class="text-2xl">Election</h1>
+                            <h1 class="text-2xl">Issues</h1>
                                 <p class="w-[300px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at rutrum arcu. Mauris tincidunt, orci in dignissim efficitur, nisl erat tempus diam</p>
                             
                             <span><a href="">Read more ></a></span>
                         </div>
-                        <div class="m-2">
+                        <div class="m-3">
+                          <div>
+                              <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M48.5832 46.375V41.9583C48.5832 37.8424 45.768 34.3839 41.9582 33.4033M34.229 7.26709C37.4662 8.57749 39.7498 11.7512 39.7498 15.4583C39.7498 19.1654 37.4662 22.3392 34.229 23.6496M37.5415 46.375C37.5415 42.2592 37.5415 40.2013 36.8691 38.578C35.9726 36.4135 34.253 34.6939 32.0885 33.7974C30.4652 33.125 28.4073 33.125 24.2915 33.125H17.6665C13.5507 33.125 11.4928 33.125 9.86947 33.7974C7.70505 34.6939 5.98543 36.4135 5.0889 38.578C4.4165 40.2013 4.4165 42.2592 4.4165 46.375M29.8123 15.4583C29.8123 20.3368 25.8575 24.2917 20.979 24.2917C16.1005 24.2917 12.1457 20.3368 12.1457 15.4583C12.1457 10.5798 16.1005 6.625 20.979 6.625C25.8575 6.625 29.8123 10.5798 29.8123 15.4583Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>                                
+                          </div>
+                          <h1 class="text-2xl">Election</h1>
+                              <p class="w-[300px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at rutrum arcu. Mauris tincidunt, orci in dignissim efficitur, nisl erat tempus diam</p>
+                          
+                          <span><a href="">Read more ></a></span>
+                      </div>
+                        <div class="m-3">
                             <div>
                                 <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7.55634 50.4207V45.3565C7.08714 45.229 6.62176 45.1219 6.16785 44.9753C3.92637 44.2524 2.24716 42.8372 1.09965 40.7908C0.199485 39.1843 -0.125645 37.4402 0.0426577 35.6246C0.163784 34.3127 0.348662 32.9994 0.611316 31.7079C1.0461 29.5685 1.49618 27.4278 2.06866 25.3215C2.7253 22.9054 3.54896 20.5378 4.7972 18.3487C5.30976 17.4511 5.90009 16.5994 6.72886 15.9492C8.35833 14.6729 9.95338 14.9228 11.3686 16.2756C12.4397 17.2981 13.1192 18.596 13.716 19.9347C13.8549 20.2458 13.9888 20.5595 14.124 20.8719C14.1584 20.8719 14.1915 20.8718 14.226 20.8706C14.3292 20.4639 14.4223 20.0533 14.5396 19.6504C15.1223 17.6538 15.6782 15.6483 16.3068 13.667C17.1419 11.0341 18.1811 8.48035 19.5058 6.05279C20.3244 4.55342 21.2411 3.11779 22.4626 1.90784C23.6496 0.732311 25.0177 -0.083674 26.7543 0.00684937C28.1249 0.0769731 29.261 0.715736 30.2606 1.62862C31.4566 2.72128 32.3848 4.02813 33.1536 5.43443C33.9084 6.81395 34.6263 8.22408 35.2255 9.67628C35.9523 11.437 36.5872 13.2398 37.1687 15.0554C37.7794 16.9615 38.2805 18.902 38.8606 20.9356C38.9932 20.6385 39.1054 20.3886 39.2151 20.1387C39.8564 18.6789 40.5883 17.2713 41.7727 16.1659C42.4855 15.5004 43.3257 15.0656 44.3253 15.1294C45.2676 15.1893 46.0479 15.6521 46.7071 16.31C47.6315 17.2331 48.2664 18.355 48.8351 19.5153C49.683 21.248 50.3141 23.0686 50.8381 24.9186C51.3099 26.5837 51.7345 28.2667 52.0711 29.9637C52.4383 31.815 52.7864 33.6828 52.9547 35.5596C53.2607 38.9842 52.0188 41.7777 49.1972 43.8125C48.2027 44.5291 47.11 45.0212 45.8936 45.2226C45.6042 45.2711 45.4295 45.3744 45.4371 45.7479C45.4665 47.1759 45.4576 48.6064 45.4422 50.0344C45.4384 50.3468 45.5366 50.4309 45.8413 50.4284C47.7513 50.4169 49.66 50.4194 51.57 50.4245C52.3197 50.4258 52.7494 50.7356 52.933 51.3859C53.1485 52.1496 52.6015 52.9324 51.8084 52.9911C51.6796 53 51.5483 52.9962 51.4183 52.9962C34.8162 52.9962 18.2142 52.9962 1.61221 53C1.16977 53 0.740093 52.9681 0.426438 52.6315C0.0235325 52.1993 -0.0873943 51.6893 0.176535 51.136C0.392013 50.6872 0.764318 50.4628 1.2552 50.4296C1.38398 50.4207 1.5153 50.4233 1.64536 50.4233C3.45078 50.4233 5.25621 50.4233 7.06291 50.4233H7.55762L7.55634 50.4207ZM25.1312 28.3368L25.2281 28.2782C25.2281 28.1379 25.2281 27.9977 25.2281 27.8562C25.2281 26.6475 25.223 25.4401 25.2332 24.2314C25.2358 23.9751 25.246 23.701 25.339 23.469C25.5647 22.9016 26.2048 22.5688 26.7505 22.6849C27.3548 22.8136 27.759 23.316 27.7641 23.979C27.7718 25.3037 27.7679 26.6296 27.7692 27.9543C27.7692 28.0857 27.7692 28.2183 27.7692 28.4478C27.9681 28.2654 28.0829 28.166 28.1912 28.0602C28.6235 27.6369 29.0353 27.1906 29.4879 26.7903C30.0336 26.3071 30.7349 26.3517 31.2245 26.8579C31.709 27.3577 31.7294 28.0869 31.2334 28.5969C30.1841 29.6768 29.1118 30.7351 28.0586 31.8112C27.9324 31.9399 27.7858 32.1248 27.782 32.2854C27.7603 33.4674 27.7718 34.6493 27.7756 35.8324C27.7756 35.8618 27.8087 35.8924 27.8368 35.9395C27.9452 35.8465 28.0484 35.77 28.1377 35.6807C28.5457 35.2714 28.9486 34.8545 29.3579 34.4465C29.9737 33.8333 30.9249 33.9021 31.3724 34.6046C31.7039 35.1261 31.7103 35.7419 31.06 36.3769C30.0247 37.3866 29.006 38.4117 27.9872 39.4368C27.8929 39.5324 27.782 39.6701 27.7807 39.79C27.7641 40.7602 27.7718 41.7305 27.7718 42.8002C28.3175 42.6944 28.8096 42.6179 29.2929 42.5006C31.6937 41.9141 33.6764 40.648 35.2472 38.7496C36.8206 36.8473 37.6838 34.6531 37.8062 32.1847C37.9056 30.1613 37.5932 28.1724 37.2248 26.1949C36.9149 24.5285 36.6268 22.8544 36.2162 21.211C35.6935 19.1213 35.0929 17.0495 34.458 14.9917C33.6165 12.2632 32.5544 9.6189 31.1786 7.11102C30.4315 5.75062 29.5746 4.46799 28.3927 3.43144C27.1521 2.34388 25.9357 2.31966 24.7066 3.37279C23.6739 4.2589 22.8884 5.34008 22.2038 6.50286C21.1531 8.28783 20.2734 10.1582 19.5963 12.1128C18.825 14.3427 18.0663 16.5803 17.4148 18.8459C16.915 20.5837 16.572 22.3674 16.1882 24.1371C15.7267 26.2663 15.3952 28.4146 15.2434 30.5936C15.0955 32.7279 15.4411 34.7462 16.4177 36.651C17.9439 39.6255 20.3359 41.5443 23.5362 42.4623C24.0717 42.6153 24.6314 42.6816 25.2281 42.7976C25.2281 41.7126 25.2358 40.7398 25.2179 39.7683C25.2154 39.6497 25.1006 39.5158 25.0063 39.4202C23.9684 38.3684 22.928 37.3178 21.8799 36.2761C21.556 35.9536 21.3788 35.5864 21.4579 35.1299C21.5548 34.5702 21.8761 34.2068 22.4396 34.0666C22.9343 33.9429 23.3283 34.1227 23.67 34.4567C24.0946 34.8711 24.5103 35.2957 24.9336 35.7126C25.0075 35.7853 25.0993 35.8401 25.2026 35.9179C25.2192 35.8363 25.2281 35.8108 25.2281 35.7853C25.2294 34.9667 25.1631 34.1418 25.2485 33.3322C25.3467 32.4015 25.0267 31.75 24.3369 31.1443C23.4622 30.3755 22.6704 29.5098 21.8506 28.6798C21.3903 28.2144 21.3125 27.5272 21.6466 27.0491C22.14 26.3441 23.0057 26.2637 23.6535 26.8795C24.1571 27.3564 24.6416 27.8536 25.1338 28.3407L25.1312 28.3368ZM45.4486 42.6893C45.5417 42.6854 45.594 42.6918 45.6412 42.6791C47.9591 42.0632 49.4764 40.6059 50.193 38.3199C50.6061 37.0029 50.4263 35.668 50.2376 34.3471C50.0616 33.118 49.85 31.8915 49.5861 30.6777C49.2163 28.9743 48.8657 27.2595 48.3582 25.5944C47.8533 23.9356 47.2005 22.3177 46.5426 20.7112C46.1269 19.6963 45.5761 18.7375 44.7359 17.9904C44.3304 17.6296 44.0002 17.6245 43.5998 17.9738C42.854 18.6241 42.3363 19.4541 41.9551 20.3415C41.315 21.8319 40.7425 23.3542 40.1866 24.8778C39.9864 25.4248 39.7493 25.9909 39.9087 26.6105C39.9699 26.8477 40.0196 27.0886 40.0476 27.3322C40.1509 28.2208 40.2619 29.1082 40.3358 29.9994C40.4875 31.8469 40.3741 33.6739 39.8322 35.4589C39.4968 36.5617 39.0302 37.6047 38.4679 38.6106C38.3888 38.7521 38.3748 38.9931 38.4386 39.1397C38.9652 40.3408 39.8028 41.2804 40.9236 41.96C41.5165 42.3195 42.1438 42.5975 42.8744 42.6995C42.8744 42.5146 42.8744 42.3731 42.8744 42.2315C42.8744 40.7895 42.8769 39.3488 42.8744 37.9068C42.8731 37.3637 43.1013 36.948 43.5743 36.6981C44.4452 36.2366 45.4308 36.8601 45.4435 37.8902C45.4614 39.3322 45.4486 40.773 45.4486 42.215C45.4486 42.368 45.4486 42.521 45.4486 42.6893ZM10.1625 42.7301C12.2726 42.2111 13.7109 41.0012 14.5995 39.1283C14.6646 38.9906 14.6429 38.7662 14.5766 38.6195C14.2897 37.9884 13.9467 37.3828 13.6713 36.7466C13.0453 35.311 12.7138 33.8001 12.6449 32.237C12.5621 30.3615 12.8158 28.5115 13.0835 26.6615C13.1307 26.3377 13.1613 25.9743 13.0644 25.6721C12.622 24.299 12.1643 22.9284 11.6466 21.582C11.2016 20.4243 10.633 19.3189 9.82588 18.3627C9.08891 17.4893 8.63628 17.5059 7.90187 18.3754C7.00554 19.4375 6.39225 20.6666 5.93069 21.9556C5.30084 23.715 4.71178 25.4911 4.20049 27.2875C3.79759 28.704 3.50688 30.155 3.22638 31.6021C2.99688 32.784 2.81965 33.9786 2.6845 35.1758C2.51364 36.6981 2.55189 38.2013 3.34623 39.5911C4.28847 41.2409 5.67442 42.2762 7.57164 42.7288C7.57164 42.5439 7.57164 42.4049 7.57164 42.266C7.57164 40.7844 7.56272 39.3029 7.57674 37.8227C7.58567 36.8473 8.60823 36.2468 9.4676 36.702C9.99928 36.9837 10.1574 37.4772 10.1599 38.0356C10.165 39.4253 10.1625 40.8163 10.1625 42.206C10.1625 42.359 10.1625 42.5108 10.1625 42.7275V42.7301ZM36.5566 41.1159C34.1112 43.6047 31.2079 45.0033 27.8011 45.3705C27.7883 45.4674 27.7692 45.5427 27.7692 45.6179C27.7679 47.1122 27.773 48.6052 27.7616 50.0994C27.759 50.3685 27.8648 50.4245 28.1058 50.4245C32.9114 50.4194 37.7182 50.4194 42.5237 50.4258C42.7928 50.4258 42.8833 50.3493 42.8807 50.0739C42.8667 49.0221 42.8756 47.9689 42.8756 46.9171C42.8756 46.4007 42.8756 45.8844 42.8756 45.3399C40.1458 44.8707 38.0637 43.4606 36.5566 41.1159ZM16.4751 41.1287C16.3693 41.2702 16.2889 41.3697 16.2175 41.4755C15.4168 42.6612 14.4006 43.6085 13.1435 44.3021C12.3568 44.7356 11.5408 45.0773 10.6508 45.2137C10.2862 45.2698 10.1421 45.4215 10.151 45.8219C10.1803 47.1989 10.1612 48.5758 10.1638 49.9528C10.1638 50.1007 10.1867 50.2499 10.1969 50.3863H25.2001V45.3667C21.7932 44.9982 18.9053 43.5958 16.4751 41.1287Z" fill="white"/>
@@ -254,7 +273,7 @@
                       <!-- next section start  -->
                        <div class="w-full min-h-[40vh] text-center bg-[#002768] flex justify-center items-center flex-col">
                             <p class="text-3xl w-[350px] font-bold text-second m-5">Do you want to join and help us?</p>
-                            <a href="" class="w-full m-5 bg-primary p-2 rounded-lg text-second font-bold max-w-[200px] h-[5vh]">
+                            <a href="" class="w-full m-5 bg-primary flex items-center justify-center p-2 text-second font-bold max-w-[200px] h-[5vh]">
                                 Just contact with us
                             </a>
                        </div>
@@ -269,13 +288,14 @@
                                     </p>
                                     </div>
                                     <div class="text-second my-12">
-                                      <ul class="flex flex-wrap">
-                                        <li class="border-r-2 border-primary p-1"><a href="./index.html">дом</a></li>
-                                        <li class="border-r-2 border-primary p-1"><a href="./about.html">о нас</a></li>
-                                        <li class="border-r-2 border-primary p-1"><a href="./partyleader.html">Лидер партии </a></li>
-                                        <li class="border-r-2 border-primary p-1"><a href="./support.html">Центры поддержки</a></li>
-                                        <li class="border-r-2 border-primary p-1"><a href="./parliament.html">Мы в парламенте</a></li>
-                                    </ul>
+                                      
+                                    <ul class="flex flex-wrap">
+                                      <li class="border-r-2 border-primary p-1"><a href="./index.html" id="navigation_one">дом</a></li>
+                                      <li class="border-r-2 border-primary p-1"><a href="./about.html" id="navigation_two">о нас</a></li>
+                                      <li class="border-r-2 border-primary p-1"><a href="./partyleader.html" id="navigation_thirty">Лидер партии </a></li>
+                                      <li class="border-r-2 border-primary p-1"><a href="./support.html" id="navigation_fourty">Центры поддержки</a></li>
+                                      <li class="border-r-2 border-primary p-1"><a href="./parliament.html" id="navigation_fivety">Мы в парламенте</a></li>
+                                  </ul>
                                     </div>
                                 </div>
                             </div>
@@ -294,8 +314,11 @@
      </div>
      <script src="./tailwind.config.js"></script>
      <script src="./main.js"></script>
+     <!-- lang  -->
+     <script src="./lang/index.js"></script>
      <!-- ion icon  -->
      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     
 </body>
 </html>

@@ -1,0 +1,36 @@
+ /* Dil Düğmesi Stili */
+ .language-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.language-button:hover {
+    background-color: #e0e0e0;
+    border-color: #999;
+}
+
+.language-button.active {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/* Google Translate Gizleme */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget span {
+    display: none !important;
+}
+
+/* Google Dropdown Gizleme */
+#google_translate_element {
+    display: none;
+}
