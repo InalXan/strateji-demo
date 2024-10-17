@@ -607,7 +607,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #ff9200;
 }
 
 @media (min-width: 576px) {
@@ -2374,8 +2373,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-primary:hover {
@@ -2393,15 +2392,15 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #9f8455;
-  border-color: #977d51;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2669,14 +2668,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #B49C73;
-  border-color: #B49C73;
+  color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-outline-primary:hover {
   color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2684,15 +2683,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #B49C73;
+  color: #ff9200;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2926,7 +2925,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #B49C73;
+  color: #ff9200;
   text-decoration: none;
 }
 
@@ -3224,7 +3223,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #B49C73;
+  background-color: #ff9200;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3583,8 +3582,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #B49C73;
-  background-color: #B49C73;
+  border-color: #ff9200;
+  background-color: #ff9200;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3648,8 +3647,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #B49C73;
-  background-color: #B49C73;
+  border-color: #ff9200;
+  background-color: #ff9200;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3875,7 +3874,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #B49C73;
+  background-color: #ff9200;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3905,7 +3904,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #B49C73;
+  background-color: #ff9200;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3938,7 +3937,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #B49C73;
+  background-color: #ff9200;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4077,7 +4076,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #B49C73;
+  background-color: #ff9200;
 }
 
 .nav-fill > .nav-link,
@@ -4744,7 +4743,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #B49C73;
+  color: #ff9200;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4777,8 +4776,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .page-item.disabled .page-link {
@@ -4861,7 +4860,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #212529;
-  background-color: #B49C73;
+  background-color: #ff9200;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5166,7 +5165,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #B49C73;
+  background-color: #ff9200;
   transition: width 0.6s ease;
 }
 
@@ -5253,8 +5252,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #ff9200;
+  border-color: #ff9200;
 }
 
 .list-group-item + .list-group-item {
@@ -6358,7 +6357,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #B49C73 !important;
+  background-color: #ff9200 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6486,7 +6485,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #B49C73 !important;
+  border-color: #ff9200 !important;
 }
 
 .border-secondary {
@@ -9528,7 +9527,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #B49C73 !important;
+  color: #ff9200 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9781,7 +9780,7 @@ h4, h5, h6 {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #B49C73;
+  color: #ff9200;
 }
 
 @media (max-width: 991.98px) {
@@ -9838,7 +9837,7 @@ h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #B49C73;
+  color: #ff9200;
   background: #37373F;
   border-radius: 5px;
   font-size: 22px;
@@ -9889,7 +9888,7 @@ h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #B49C73;
+  background: #ff9200;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9899,7 +9898,7 @@ h4, h5, h6 {
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #B49C73;
+  border: 2px solid #ff9200;
   border-radius: 20px;
 }
 
