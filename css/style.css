@@ -62,6 +62,7 @@ body {
   color: #757575;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -152,13 +153,13 @@ sup {
 }
 
 a {
-  color: #B49C73;
+  color: #ff9200;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #8e764c;
+  color: #ff9200;
   text-decoration: underline;
 }
 
